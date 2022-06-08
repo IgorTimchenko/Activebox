@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+
+/* Атомарные классы */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 35px;
+    color: white;
+    background: #e84545;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+
+/* Основные стили */
+
+header {
+    background: url("images/header.png");
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+header .row.c1 {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: #c0c2ca;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+header .row.c2 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 120px;
+}
+header .descr {
+    text-transform: none;
+    margin-bottom: 60px;
+    text-align: center;
+}
