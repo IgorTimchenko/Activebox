@@ -5,7 +5,7 @@ body {
 /* Атомарные классы */
 
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -17,7 +17,6 @@ body {
     text-decoration: none;
     border-radius: 2px;
 }
-
 
 /* Основные стили */
 
@@ -46,4 +45,79 @@ header .descr {
     text-transform: none;
     margin-bottom: 60px;
     text-align: center;
+}
+
+#advantage .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px;
+    text-align: center;
+}
+#advantage h5 {
+    text-transform: uppercase;
+}
+#advantage p {
+    color: #80858b;
+}
+
+#our_works .title {
+    display: flex;
+    justify-content: space-between;
+}
+#our_works .inner {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#our_works .item {
+    display: block;
+    width: 25%;
+
+}
+
+#team  {
+
+}
+
+#team .inner {
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#team .staff {
+    widows: 25%;
+    padding: 10px;
+}
+
+
+#download {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+#download p {
+font-size: 40px;
+margin-bottom: 5px;
+}
+
+#download h3 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+#creator {
+    background-color: #313454;
+    height: 100px;
+    text-align: center;
+    color: #808080;
+}
+#creator .text{
+    padding: 30px;
+}
+#creator p {
+    margin: 0;
+    line-height: 20px;
 }
